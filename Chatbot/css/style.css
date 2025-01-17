@@ -1,0 +1,135 @@
+/* General Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #1e1e2f, #2a2a3e);
+    color: #ffffff;
+}
+
+/* Common Container Styling */
+.container {
+    width: 80%;
+    margin: 50px auto;
+    background: #333344;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Headers */
+h1, h2 {
+    text-align: center;
+    color: #ffcc00;
+    margin-bottom: 20px;
+}
+
+/* Forms */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
+    background: #444455;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+form label {
+    font-weight: bold;
+    color: #ffcc00;
+}
+
+form input, form textarea, form button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+form input, form textarea {
+    background: #2e2e3e;
+    color: #ffffff;
+}
+
+form button {
+    background: #ffcc00;
+    color: #1e1e2f;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+form button:hover {
+    background: #ffaa00;
+}
+
+/* Chatbot Section */
+#response {
+    margin-top: 20px;
+    padding: 15px;
+    background: #222233;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background: #444455;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+table th, table td {
+    text-align: left;
+    padding: 12px;
+    color: #ffffff;
+}
+
+table th {
+    background: #555566;
+    color: #ffcc00;
+    font-weight: bold;
+}
+
+table tr:nth-child(odd) {
+    background: #2e2e3e;
+}
+
+table tr:nth-child(even) {
+    background: #383848;
+}
+
+table tr:hover {
+    background: #505060;
+}
+
+/* Links */
+a {
+    color: #ffaa00;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+a:hover {
+    color: #ff8800;
+}
+
+/* Buttons */
+button, a button {
+    display: inline-block;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background: #ffcc00;
+    color: #1e1e2f;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover, a button:hover {
+    background: #ffaa00;
+}
