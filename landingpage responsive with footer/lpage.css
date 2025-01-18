@@ -1,0 +1,169 @@
+/* Global Styles */
+body {
+  background-color: rgb(0, 0, 0);
+  overflow-x: hidden;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0 0 2rem;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 90px;
+  width:85px;
+  margin-right: 1rem;
+  margin-left: 5rem;
+}
+
+.nav-list {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-list li {
+  margin-left: 1.5rem;
+  margin-right: 6rem;
+  padding-bottom: 0.50rem;
+}
+
+.nav-link {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.nav-link:hover {
+  color: #ccc;
+}
+
+.divider {
+  border: none;
+  border-top: 1px solid #ccc;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem 0.5rem;
+  }
+
+  .nav-list {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 1rem;
+  }
+
+  .nav-list li {
+    margin-left: 0;
+    margin-bottom: 0.5rem;
+  }
+}
+.container {
+  display: flex;
+  align-items: flex-start;
+  height: 100vh;
+  background-color: #000;
+  color: #fff;
+}
+
+.left-side {
+  padding: 2rem;
+  margin-top: 10rem;
+  flex: 1;
+}
+
+.right-side {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 2rem;
+  margin-top: 10rem;
+  flex: 1;
+}
+
+.hi {
+  font-size: 4.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  margin-left: 5rem;
+}
+
+.sub {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  margin-left: 5rem;
+  width: 600px;
+  
+}
+
+.continue-button {
+  background: linear-gradient(to right, #ffffff 0%, #666666 100%);
+  border: none;
+  border-radius: 15px;
+  color: #000;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  padding: 1rem 5rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+  margin-left: 5rem;
+}
+
+.continue-button:hover {
+  color: #001fa7;
+}
+
+.TechBot {
+  max-width: 400px; /* Adjust the size of the TechBot image */
+  margin-right: 25rem;
+  margin-top: -11rem;
+  margin-left: -15rem;
+}
+
+.Convo {
+  max-width: 400px; /* Adjust the size of the Convo image */
+  margin-right: 6rem;
+  margin-top: -14.5rem;
+  margin-left: rem;
+}
+
+.footer {
+  background-color: #000;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fdivider {
+  border: none;
+  border-top: 1px solid #ccc;
+  margin: 0;
+}
