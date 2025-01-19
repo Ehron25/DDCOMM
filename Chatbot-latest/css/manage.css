@@ -1,0 +1,225 @@
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: rgb(0, 0, 0);
+            color: #fff;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            text-align: center;
+            margin: 20px 0;
+            color: #fff;
+        }
+
+        /* Centered Add New Entry Button */
+        .open-modal-btn {
+            display: inline-block; /* Make it inline */
+            margin: 20px auto;
+            padding: 10px 20px;
+            background: linear-gradient(to right, #ffffff 0%, #666666 100%);
+            color: #000000;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1.1rem;
+            transition: background-color 0.3s;
+        }
+
+        .open-modal-btn:hover {
+            background-color: #001fa7;
+        }
+        .back-btn {
+            display: inline-block; /* Make it inline */
+            margin: 20px auto;
+            padding: 10px 20px;
+            background: linear-gradient(to right, #ffffff 0%, #666666 100%);
+            color: #000000;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1.1rem;
+            transition: background-color 0.3s;
+        }
+
+        .back-btn:hover {
+            background-color: #0056b3;
+        }
+
+        /* Table Styles */
+        table {
+            width: 90%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            text-align: left;
+        }
+
+        table th,
+        table td {
+            padding: 12px;
+            text-align: center;
+            border: 1px solid #ddd;
+        }
+
+        table th {
+            background-color: #000000;
+            color: #fff;
+        }
+
+        table tr:nth-child(even) {
+            background: linear-gradient(180deg, #000000 13%, #666666 100%);
+        }
+        
+        table tr:nth-child(odd) {
+            background: linear-gradient(180deg, #000000 13%, #666666 100%);
+        }
+
+        table input {
+            width: 90%;
+            padding: 5px;
+            font-size: 0.9rem;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+
+        table button {
+            padding: 5px 10px;
+            font-size: 0.9rem;
+            color: #fff;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .buttons {
+            text-align: center; /* Center the content horizontally */
+            margin-bottom: 20px;
+        }
+        .updte,.delte {
+            background: linear-gradient(to right, #ffffff 0%, #666666 100%);
+            color:rgb(0, 0, 0);
+        }
+        button.update-btn {
+            background-color: #28a745;
+        }
+
+        button.update-btn:hover {
+            background-color: #218838;
+        }
+
+        button.delete-btn {
+            background-color: #dc3545;
+        }
+
+        button.delete-btn:hover {
+            background-color: #c82333;
+        }
+
+        /* Modal Styles */
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            justify-content: center;
+            align-items: center;
+        }
+
+        .modal-content {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            width: 90%;
+            max-width: 500px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .modal-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 10px;
+            margin-bottom: 10px;
+        }
+
+        .modal-header h2 {
+            margin: 0;
+            font-size: 1.5rem;
+            color: #007bff;
+        }
+
+        .close-modal {
+            background: none;
+            border: none;
+            font-size: 1.5rem;
+            cursor: pointer;
+        }
+
+        .modal-footer {
+            display: flex;
+            justify-content: flex-end;
+            margin-top: 15px;
+        }
+
+        .modal-footer button {
+            margin-left: 10px;
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+
+        .modal-footer .cancel-btn {
+            background-color: #6c757d;
+            color: #fff;
+        }
+
+        .modal-footer .cancel-btn:hover {
+            background-color: #5a6268;
+        }
+
+        .modal-footer .submit-btn {
+            background-color: #007bff;
+            color: #fff;
+        }
+
+        .modal-footer .submit-btn:hover {
+            background-color: #0056b3;
+        }
+
+        .pagination {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+            gap: 5px;
+        }
+
+        .pagination button {
+            padding: 8px 12px;
+            font-size: 0.9rem;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        .pagination button.active {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+        }
+
+        .pagination button:hover {
+            background-color: #0056b3;
+            color: #fff;
+        }
+
+        .pagination button:disabled {
+            background-color: #ddd;
+            color: #999;
+            cursor: not-allowed;
+        }
